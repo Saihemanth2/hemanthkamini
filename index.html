@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Laxmi Engineering Center - Medak</title>
+    <style>
+        /* Basic inline CSS for the card layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f0f0; /* Light background */
+            display: flex;
+            justify-content: center;
+        }
+        .business-card {
+            width: 100%;
+            max-width: 600px;
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .header {
+            background-color: #2a688a; /* A professional color for the header */
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 5px 5px 0 0;
+            margin: -20px -20px 20px -20px; /* Extends to edges */
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .product-section h2 {
+            border-bottom: 2px solid #2a688a;
+            padding-bottom: 5px;
+            margin-top: 20px;
+            color: #2a688a;
+        }
+        .product-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .product-item {
+            background-color: #e6f3ff;
+            padding: 8px 12px;
+            border-radius: 5px;
+            flex-grow: 1;
+        }
+        .image-gallery {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .image-gallery img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            border: 1px solid #ddd;
+            margin: 5px;
+            border-radius: 4px;
+        }
+        .map-container {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .established {
+            text-align: right;
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="business-card">
+        <div class="header">
+            <h1>Sri Laxmi Engineering Center</h1>
+            <p style="font-size: 1em; margin-top: 5px;">CRI PUMPS Dealer | Birla Nu Distributor</p>
+        </div>
+
+        <div class="contact-info">
+            <p><strong>Address:</strong> Shivaji Statue, M.G Road, Medak - 502110</p>
+            <p><strong>Phone:</strong> <a href="tel:9392079056">9392079056</a>, <a href="tel:8919200344">8919200344</a></p>
+            <p><strong>Whatsapp:</strong> <a href="https://wa.me/919392079056" target="_blank">Chat with us on WhatsApp</a></p>
+            <p><strong>Hours:</strong> Monday to Saturday 10:00 AM to 10:00 PM | Sunday Closed</p>
+            <p class="established">Established: 1988</p>
+        </div>
+
+        <div class="product-section">
+            <h2>Authorized Dealer / Distributor for:</h2>
+            <ul class="product-list">
+                <li class="product-item"><strong>CRI PUMPS</strong></li>
+                <li class="product-item"><strong>Birla Nu Pipes</strong> (CPVC, SWR, PVC, UPVC fittings)</li>
+                <li class="product-item"><strong>Supreme</strong> (CPVC, SWR, PVC, UPVC fittings)</li>
+                <li class="product-item"><strong>Somany Sanitary & Sinks</strong></li>
+            </ul>
+        </div>
+        
+        <div class="product-section">
+            <h2>Product Gallery (Placeholder Images)</h2>
+            <div class="image-gallery">
+                <p style="font-size: 0.8em; color: red;">*Image links provided are not direct image URLs and may not display correctly.*</p>
+
+                <img src="https://via.placeholder.com/100x100?text=Birla+Nu" alt="Birla Nu Products">
+                
+                <img src="https://via.placeholder.com/100x100?text=CRI+PUMPS" alt="CRI Pumps">
+                
+                <img src="https://via.placeholder.com/100x100?text=Supreme" alt="Supreme Products">
+                
+                <img src="https://via.placeholder.com/100x100?text=Somany" alt="Somany Products">
+
+            </div>
+        </div>
+
+        <div class="product-section">
+            <h2>Our Location</h2>
+            <div class="map-container">
+                <iframe 
+                    width="100%" 
+                    height="300" 
+                    frameborder="0" 
+                    style="border:0" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3809.913072704285!2d78.2573223148737!3d18.068364987719034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc9b0e91a0c10a3%3A0x2a3e6a2b3c2d4e5f!2sShivaji%20Statue%2C%20Medak%2C%20Telangana%20502110!5e0!3m2!1sen!2sin!4v1634567890123!5m2!1sen!2sin" 
+                    allowfullscreen="" 
+                    loading="lazy"
+                    aria-hidden="false" 
+                    tabindex="0"
+                ></iframe>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
